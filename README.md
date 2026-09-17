@@ -1,41 +1,48 @@
-# 🏏 IPL Dashboard using Excel
+# 🏏 IPL Match Performance Dashboard
 
-An interactive Excel dashboard analyzing Indian Premier League (IPL) data to uncover key insights, team performances, match outcomes, and individual player statistics.
+An interactive Microsoft Excel dashboard analyzing 800+ Indian Premier League (IPL) matches across 15+ seasons to uncover key insights into team performance, win trends, toss impact, and franchise comparisons.
 
 ---
 
-## 📹 Project Demo & Video Walkthrough
+## 📹 Video Walkthrough & Dashboard Screenshots
 
+### 🎥 Dashboard Demo
 https://github.com/lekshmi001/IPL_Dashboard-using-Excel/raw/main/ipl%20dashboard.mp4
 
-> **Note:** If the video preview does not play automatically above, you can download or view the demo directly via [ipl dashboard.mp4](./ipl%20dashboard.mp4).
+> **Note:** If the video preview above does not play natively in your browser, you can view or download the demo directly via [ipl dashboard.mp4](./ipl%20dashboard.mp4).
+
+### 📸 Dashboard Screenshots
+| Dashboard Image 1 | Dashboard Image 2 | Dashboard Image 3 |
+| :---: | :---: | :---: |
+| ![Dashboard Image 1](./1.png) | ![Dashboard Image 2](./2.png) | ![Dashboard Image 3](./3.png) |
 
 ---
 
-## 📊 Key Features & Analysis
+## 🎯 Project Overview
 
-* **Interactive Filters / Slicers:** Filter dynamic metrics by season, team, venue, or match result.
-* **Match & Season Insights:** Analysis of total wins, run rates, boundary frequencies, and venue performance.
-* **Player Statistics:** Highlights of top run-scorers, wicket-takers, and player-of-the-match awards.
-* **Data Visualizations:** Customized charts, KPI cards, and dynamic pivot tables for quick decision-making.
+This project transforms raw multi-season IPL match logs into actionable metrics. By evaluating historical performance trends across 10+ franchises, the dashboard provides a clear picture of team consistency, venue advantages, and strategic toss decisions.
+
+---
+
+## 🔑 Key Features & Insights
+
+* **Large Dataset Analysis:** Analyzed 800+ matches spanning 15+ seasons using [`ipl dataset.xlsx`](./ipl%20dataset.xlsx).
+* **Franchise Comparative Analysis:** Evaluates team win rates, head-to-head metrics, and seasonal growth across 10+ franchises.
+* **Toss Impact Analysis:** Highlights the statistical correlation between winning the toss and match outcomes (batting vs. fielding decisions).
+* **Dynamic Interactivity:** Filter metrics dynamically by season, venue, team, or match outcome using connected Slicers and KPI Cards.
 
 ---
 
 ## 🛠️ Tools & Excel Techniques Used
 
+* **Microsoft Excel:** Advanced Data Cleaning, Data Validation, Structuring, and Reporting.
+* **Core Techniques:** Dynamic Pivot Tables, Pivot Charts, Custom Slicers, KPI Cards, and Conditional Formatting.
+* **Formulas & Functions:** `XLOOKUP`, `INDEX/MATCH`, `SUMIFS`, `COUNTIFS`, and `NESTED IF` statements.
 
-Data Cleaning & Transformation: Handled missing values, standardized team names, and structured date/season fields.
+---
 
-Advanced Formulas: XLOOKUP, INDEX/MATCH, SUMIFS, COUNTIFS, and NESTED IF statements.
+## 📁 Repository Files
 
-Pivot Tables & Pivot Charts: Dynamic summarization of multi-year IPL performance data.
-
-Dashboard Design: Conditional formatting, custom color palettes, icon sets, and interconnected Slicers.
-
-## 📁 Repository Structure
-
-```text
-├── ipl dataset.xlsx    # Raw dataset containing historical IPL match & ball-by-ball data
-├── ipl dashboard.mp4   # Video demonstration of the dynamic Excel dashboard
-└── README.md           # Project documentation
-
+* **`ipl dataset.xlsx`** — Complete Excel workbook containing raw/processed data and the interactive dashboard.
+* **`ipl dashboard.mp4`** — Video walkthrough showcasing dashboard interactivity.
+* **`1.png`**, **`2.png`**, **`3.png`** — Dashboard preview images demonstrating key visual tabs and KPI summaries.
